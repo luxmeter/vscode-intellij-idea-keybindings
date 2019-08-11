@@ -1,7 +1,7 @@
 {
     "name": "intellij-idea-keybindings",
-    "version": "0.2.34",
-    "publisher": "k--kato",
+    "version": "0.0.1",
+    "publisher": "luxmeter",
     "engines": {
         "vscode": "^1.36.0"
     },
@@ -20,7 +20,9 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "vscode": "^1.1.35",
+        "@types/node": "^11.13.0",
+        "@types/vscode": "^1.36.0",
+        "typescript": "^3.5.1",
         "gulp": "~4.0.2",
         "gulp-cli": "~2.2.0",
         "gulp-strip-json-comments": "~3.0.0",
@@ -30,8 +32,7 @@
     "extensionDependencies": [],
     "isAMD": false,
     "scripts": {
-        "build": "./node_modules/.bin/gulp",
-        "postinstall": "node ./node_modules/vscode/bin/install"
+        "build": "./node_modules/.bin/gulp"
     },
     "icon": "index.png",
     "license": "MIT",
