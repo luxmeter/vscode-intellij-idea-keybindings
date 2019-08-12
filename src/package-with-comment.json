@@ -469,7 +469,7 @@
         "intellij": "Collapse all"
       },
       {
-        "key": "ctrl+f4",
+        "key": "ctrl+w",
         "mac": "cmd+w",
         "command": "workbench.action.closeActiveEditor",
         "intellij": "Close active editor tab"
@@ -766,20 +766,20 @@
             \*---------------------------------------------------------------*/
       {
         "key": "ctrl+n",
-        "mac": "cmd+o",
+        "mac": "cmd+n",
         "command": "workbench.action.showAllSymbols",
         "intellij": "Go to class",
         "todo": "not only class"
       },
       {
         "key": "ctrl+shift+n",
-        "mac": "cmd+shift+o",
+        "mac": "cmd+shift+n",
         "command": "workbench.action.quickOpen",
         "intellij": "Go to file"
       },
       {
         "key": "ctrl+alt+shift+n",
-        "mac": "cmd+alt+o",
+        "mac": "cmd+alt+n",
         "command": "workbench.action.gotoSymbol",
         "intellij": "Go to symbol"
       },
